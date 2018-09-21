@@ -12,7 +12,7 @@ use cgmath;
 use nalgebra;
 
 #[allow(missing_docs)]
-#[derive(Copy, Clone, Debug, PartialEq, Eq)]
+#[derive(Copy, Clone, Debug, PartialEq, Eq,PartialOrd, Ord, Hash)]
 pub enum AttributeType {
     I8,
     I8I8,
